@@ -33,8 +33,9 @@ def on_recommend():
     language = language_entry.get().strip()
     director = director_entry.get().strip()
 
-    if not genre or not language:
-        messagebox.showwarning("Input error", "Please enter at least genre and language.")
+    # Remove 'not genre' from this check:
+    if not language:
+        messagebox.showwarning("Input error", "Please enter at least the language.")
         return
 
     results = recommend_movies(movies, genre, language, director)
@@ -50,12 +51,15 @@ def on_recommend():
         output_box.insert(tk.END, "No matching movies found.")
     output_box.config(state='disabled')
 
+
 # Load movie data once
 movies = load_movies("movies.json")
 
 # Setup Tkinter window
 root = tk.Tk()
 root.title("Movie Recommender")
+
+root.resizable(False, False)
 
 frame = ttk.Frame(root, padding=10)
 frame.grid(row=0, column=0, sticky="NSEW")
@@ -69,16 +73,32 @@ ttk.Label(frame, text="Language:").grid(row=1, column=0, sticky="W")
 language_entry = ttk.Entry(frame, width=30)
 language_entry.grid(row=1, column=1, pady=5)
 
-ttk.Label(frame, text="Director (optional):").grid(row=2, column=0, sticky="W")
+ttk.Label(frame, text="Director:").grid(row=2, column=0, sticky="W")
 director_entry = ttk.Entry(frame, width=30)
 director_entry.grid(row=2, column=1, pady=5)
 
-# Recommend button
 recommend_btn = ttk.Button(frame, text="Recommend Movies", command=on_recommend)
 recommend_btn.grid(row=3, column=0, columnspan=2, pady=10)
+root.bind('<Return>', lambda event: on_recommend())
 
-# Output box
 output_box = scrolledtext.ScrolledText(frame, width=60, height=15, state='disabled')
 output_box.grid(row=4, column=0, columnspan=2)
+
+def center_window(win):
+    win.update_idletasks()
+
+    width = win.winfo_width()
+    height = win.winfo_height()
+
+    screen_width = win.winfo_screenwidth()
+    screen_height = win.winfo_screenheight()
+
+    x = (screen_width // 2) - (width // 2)
+    y = (screen_height // 2) - (height // 2)
+
+    win.geometry(f'{width}x{height}+{x}+{y}')
+
+center_window(root)
+
 
 root.mainloop()

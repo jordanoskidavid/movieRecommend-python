@@ -7,14 +7,13 @@ def load_movies(filename):
 
 def get_user_preferences():
     genre = input("Enter preferred genre (e.g. Sci-Fi, Drama): ").strip()
-    language = input("Enter preferred language (e.g. English, Korean): ").strip()
-    director = input("Enter preferred director (optional): ").strip()
+    language = input("Enter preferred language:").strip()
+    director = input("Enter preferred director:").strip()
     return genre, language, director
-
 
 def fuzzy_match(user_input, target, threshold=0.6):
     if not user_input:
-        return True
+        return True  # empty input matches anything
     user_input = user_input.lower()
     target = target.lower()
 
@@ -23,7 +22,6 @@ def fuzzy_match(user_input, target, threshold=0.6):
 
     ratio = difflib.SequenceMatcher(None, user_input, target).ratio()
     return ratio >= threshold
-
 
 def recommend_movies(movies, genre, language, director):
     recommendations = []
@@ -37,12 +35,19 @@ def recommend_movies(movies, genre, language, director):
 def main():
     movies = load_movies("movies.json")
     genre, language, director = get_user_preferences()
+
+    # Optional: check if language is entered; or you can skip this if you want it fully optional
+    if not language:
+        print("Please enter at least a language.")
+        return
+
     results = recommend_movies(movies, genre, language, director)
 
     if results:
         print(f"Movies that matched your preferences: {len(results)}")
         for movie in results:
-            print(f"- {movie['title']} ({movie['year']}) - {movie['genre']} [{movie['language']}]")
+            year = movie.get('year', 'N/A')
+            print(f"- {movie['title']} ({year}) - {movie['genre']} [{movie['language']}]")
     else:
         print("No matching movies found.")
 
