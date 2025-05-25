@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Inception",
+    "genre": "Sci-Fi",
+    "language": "English",
+    "director": "Christopher Nolan",
+    "year": 2010
+  },
+  {
+    "title": "Parasite",
+    "genre": "Thriller",
+    "language": "Korean",
+    "director": "Bong Joon-ho",
+    "year": 2019
+  },
+  {
+    "title": "Interstellar",
+    "genre": "Sci-Fi",
+    "language": "English",
+    "director": "Christopher Nolan",
+    "year": 2014
+  },
+  {
+    "title": "The Godfather",
+    "genre": "Crime",
+    "language": "English",
+    "director": "Francis Ford Coppola",
+    "year": 1972
+  },
+  {
+    "title": "Spirited Away",
+    "genre": "Animation",
+    "language": "Japanese",
+    "director": "Hayao Miyazaki",
+    "year": 2001
+  },
+  {
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "language": "English",
+    "director": "Christopher Nolan",
+    "year": 2008
+  },
+  {
+    "title": "Pulp Fiction",
+    "genre": "Crime",
+    "language": "English",
+    "director": "Quentin Tarantino",
+    "year": 1994
+  },
+  {
+    "title": "Amélie",
+    "genre": "Romantic Comedy",
+    "language": "French",
+    "director": "Jean-Pierre Jeunet",
+    "year": 2001
+  },
+  {
+    "title": "City of God",
+    "genre": "Crime",
+    "language": "Portuguese",
+    "director": "Fernando Meirelles",
+    "year": 2002
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "genre": "Drama",
+    "language": "English",
+    "director": "Frank Darabont",
+    "year": 1994
+  },
+  {
+    "title": "La La Land",
+    "genre": "Musical",
+    "language": "English",
+    "director": "Damien Chazelle",
+    "year": 2016
+  },
+  {
+    "title": "Life Is Beautiful",
+    "genre": "Drama",
+    "language": "Italian",
+    "director": "Roberto Benigni",
+    "year": 1997
+  },
+  {
+    "title": "Oldboy",
+    "genre": "Thriller",
+    "language": "Korean",
+    "director": "Park Chan-wook",
+    "year": 2003
+  },
+  {
+    "title": "The Pianist",
+    "genre": "Biography",
+    "language": "English",
+    "director": "Roman Polanski",
+    "year": 2002
+  },
+  {
+    "title": "Whiplash",
+    "genre": "Drama",
+    "language": "English",
+    "director": "Damien Chazelle",
+    "year": 2014
+  },
+  {
+    "title": "Crouching Tiger, Hidden Dragon",
+    "genre": "Action",
+    "language": "Mandarin",
+    "director": "Ang Lee",
+    "year": 2000
+  },
+  {
+    "title": "Slumdog Millionaire",
+    "genre": "Drama",
+    "language": "English",
+    "director": "Danny Boyle",
+    "year": 2008
+  },
+  {
+    "title": "Pan's Labyrinth",
+    "genre": "Fantasy",
+    "language": "Spanish",
+    "director": "Guillermo del Toro",
+    "year": 2006
+  },
+  {
+    "title": "The Lives of Others",
+    "genre": "Drama",
+    "language": "German",
+    "director": "Florian Henckel von Donnersmarck",
+    "year": 2006
+  },
+  {
+    "title": "Your Name",
+    "genre": "Animation",
+    "language": "Japanese",
+    "director": "Makoto Shinkai",
+    "year": 2016
+  },
+   {
+    "title": "The Prestige",
+    "genre": "Mystery",
+    "language": "English",
+    "director": "Christopher Nolan",
+    "year": 2006
+  },
+  {
+    "title": "The Intouchables",
+    "genre": "Comedy-Drama",
+    "language": "French",
+    "director": "Olivier Nakache & Éric Toledano",
+    "year": 2011
+  },
+  {
+    "title": "Roma",
+    "genre": "Drama",
+    "language": "Spanish",
+    "director": "Alfonso Cuarón",
+    "year": 2018
+  },
+  {
+    "title": "The Hunt",
+    "genre": "Drama",
+    "language": "Danish",
+    "director": "Thomas Vinterberg",
+    "year": 2012
+  },
+  {
+    "title": "1917",
+    "genre": "War",
+    "language": "English",
+    "director": "Sam Mendes",
+    "year": 2019
+  },
+  {
+    "title": "Bicycle Thieves",
+    "genre": "Drama",
+    "language": "Italian",
+    "director": "Vittorio De Sica",
+    "year": 1948
+  },
+  {
+    "title": "Hero",
+    "genre": "Action",
+    "language": "Mandarin",
+    "director": "Zhang Yimou",
+    "year": 2002
+  },
+  {
+    "title": "A Separation",
+    "genre": "Drama",
+    "language": "Persian",
+    "director": "Asghar Farhadi",
+    "year": 2011
+  },
+  {
+    "title": "The Great Beauty",
+    "genre": "Drama",
+    "language": "Italian",
+    "director": "Paolo Sorrentino",
+    "year": 2013
+  },
+  {
+    "title": "Portrait of a Lady on Fire",
+    "genre": "Romance",
+    "language": "French",
+    "director": "Céline Sciamma",
+    "year": 2019
+  },
+  {
+    "title": "Dangal",
+    "genre": "Biography",
+    "language": "Hindi",
+    "director": "Nitesh Tiwari",
+    "year": 2016
+  },
+  {
+    "title": "The Handmaiden",
+    "genre": "Thriller",
+    "language": "Korean",
+    "director": "Park Chan-wook",
+    "year": 2016
+  },
+  {
+    "title": "Ikiru",
+    "genre": "Drama",
+    "language": "Japanese",
+    "director": "Akira Kurosawa",
+    "year": 1952
+  },
+  {
+    "title": "The Lunchbox",
+    "genre": "Romance",
+    "language": "Hindi",
+    "director": "Ritesh Batra",
+    "year": 2013
+  },
+  {
+    "title": "Run Lola Run",
+    "genre": "Thriller",
+    "language": "German",
+    "director": "Tom Tykwer",
+    "year": 1998
+  },
+  {
+    "title": "Incendies",
+    "genre": "Drama",
+    "language": "French",
+    "director": "Denis Villeneuve",
+    "year": 2010
+  },
+  {
+    "title": "The Secret in Their Eyes",
+    "genre": "Mystery",
+    "language": "Spanish",
+    "director": "Juan José Campanella",
+    "year": 2009
+  },
+  {
+    "title": "Train to Busan",
+    "genre": "Horror",
+    "language": "Korean",
+    "director": "Yeon Sang-ho",
+    "year": 2016
+  },
+  {
+    "title": "Waltz with Bashir",
+    "genre": "Animation",
+    "language": "Hebrew",
+    "director": "Ari Folman",
+    "year": 2008
+  },
+  {
+    "title": "The Man Who Knew Infinity",
+    "genre": "Biography",
+    "language": "English",
+    "director": "Matthew Brown",
+    "year": 2015
+  }
+]
